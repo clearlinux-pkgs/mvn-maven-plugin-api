@@ -4,7 +4,7 @@
 #
 Name     : mvn-maven-plugin-api
 Version  : 2.0.6
-Release  : 7
+Release  : 8
 URL      : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar
 Source0  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar
 Source1  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.1/maven-plugin-api-2.0.1.jar
@@ -16,26 +16,29 @@ Source6  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.
 Source7  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.pom
 Source8  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.7/maven-plugin-api-2.0.7.jar
 Source9  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.7/maven-plugin-api-2.0.7.pom
-Source10  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.8/maven-plugin-api-2.0.8.pom
-Source11  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.jar
-Source12  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom
-Source13  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.pom
-Source14  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.1.0/maven-plugin-api-2.1.0.jar
-Source15  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.1.0/maven-plugin-api-2.1.0.pom
-Source16  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.2.0/maven-plugin-api-2.2.0.jar
-Source17  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.2.0/maven-plugin-api-2.2.0.pom
-Source18  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar
-Source19  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.pom
-Source20  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.jar
-Source21  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.pom
-Source22  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.0.5/maven-plugin-api-3.0.5.jar
-Source23  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.0.5/maven-plugin-api-3.0.5.pom
-Source24  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar
-Source25  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.pom
-Source26  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.jar
-Source27  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.pom
-Source28  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.6.0/maven-plugin-api-3.6.0.jar
-Source29  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.6.0/maven-plugin-api-3.6.0.pom
+Source10  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.8/maven-plugin-api-2.0.8.jar
+Source11  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.8/maven-plugin-api-2.0.8.pom
+Source12  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.jar
+Source13  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom
+Source14  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.pom
+Source15  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.1.0/maven-plugin-api-2.1.0.jar
+Source16  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.1.0/maven-plugin-api-2.1.0.pom
+Source17  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.2.0/maven-plugin-api-2.2.0.jar
+Source18  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.2.0/maven-plugin-api-2.2.0.pom
+Source19  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar
+Source20  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.pom
+Source21  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.0.3/maven-plugin-api-3.0.3.jar
+Source22  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.0.3/maven-plugin-api-3.0.3.pom
+Source23  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.jar
+Source24  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.pom
+Source25  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.0.5/maven-plugin-api-3.0.5.jar
+Source26  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.0.5/maven-plugin-api-3.0.5.pom
+Source27  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar
+Source28  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.pom
+Source29  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.jar
+Source30  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.pom
+Source31  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.6.0/maven-plugin-api-3.6.0.jar
+Source32  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.6.0/maven-plugin-api-3.6.0.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -100,64 +103,73 @@ mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugi
 cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0.7/maven-plugin-api-2.0.7.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0.8
-cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0.8/maven-plugin-api-2.0.8.pom
+cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0.8/maven-plugin-api-2.0.8.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0.8
+cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0.8/maven-plugin-api-2.0.8.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0.9
-cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.jar
+cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0.9
-cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom
+cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0
-cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.pom
+cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.1.0
-cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.1.0/maven-plugin-api-2.1.0.jar
+cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.1.0/maven-plugin-api-2.1.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.1.0
-cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.1.0/maven-plugin-api-2.1.0.pom
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.1.0/maven-plugin-api-2.1.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.2.0
-cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.2.0/maven-plugin-api-2.2.0.jar
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.2.0/maven-plugin-api-2.2.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.2.0
-cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.2.0/maven-plugin-api-2.2.0.pom
+cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.2.0/maven-plugin-api-2.2.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.2.1
-cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar
+cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.2.1
-cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.pom
+cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.3
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.3/maven-plugin-api-3.0.3.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.3
+cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.3/maven-plugin-api-3.0.3.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.4
-cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.jar
+cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.4
-cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.pom
+cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.5
-cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.5/maven-plugin-api-3.0.5.jar
+cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.5/maven-plugin-api-3.0.5.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.5
-cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.5/maven-plugin-api-3.0.5.pom
+cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.5/maven-plugin-api-3.0.5.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0
-cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar
+cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0
-cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.pom
+cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.3.9
-cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.jar
+cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.3.9
-cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.pom
+cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.6.0
-cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.6.0/maven-plugin-api-3.6.0.jar
+cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.6.0/maven-plugin-api-3.6.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.6.0
-cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.6.0/maven-plugin-api-3.6.0.pom
+cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.6.0/maven-plugin-api-3.6.0.pom
 
 
 %files
@@ -175,6 +187,7 @@ cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.pom
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0.7/maven-plugin-api-2.0.7.jar
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0.7/maven-plugin-api-2.0.7.pom
+/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0.8/maven-plugin-api-2.0.8.jar
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0.8/maven-plugin-api-2.0.8.pom
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.jar
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom
@@ -185,6 +198,8 @@ cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.2.0/maven-plugin-api-2.2.0.pom
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.pom
+/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.3/maven-plugin-api-3.0.3.jar
+/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.3/maven-plugin-api-3.0.3.pom
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.jar
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.pom
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0.5/maven-plugin-api-3.0.5.jar
