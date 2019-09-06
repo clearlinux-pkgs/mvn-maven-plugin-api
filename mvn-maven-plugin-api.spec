@@ -4,7 +4,7 @@
 #
 Name     : mvn-maven-plugin-api
 Version  : 2.0.6
-Release  : 8
+Release  : 9
 URL      : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar
 Source0  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar
 Source1  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.1/maven-plugin-api-2.0.1.jar
@@ -37,13 +37,13 @@ Source27  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.0
 Source28  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.pom
 Source29  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.jar
 Source30  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.pom
-Source31  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.6.0/maven-plugin-api-3.6.0.jar
-Source32  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.6.0/maven-plugin-api-3.6.0.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
 Requires: mvn-maven-plugin-api-data = %{version}-%{release}
 Requires: mvn-maven-plugin-api-license = %{version}-%{release}
+BuildRequires : apache-maven
+BuildRequires : buildreq-mvn
 
 %description
 No detailed description available
@@ -165,12 +165,6 @@ cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.3.9
 cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.6.0
-cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.6.0/maven-plugin-api-3.6.0.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.6.0
-cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.6.0/maven-plugin-api-3.6.0.pom
-
 
 %files
 %defattr(-,root,root,-)
@@ -208,8 +202,6 @@ cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.pom
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.jar
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.pom
-/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.6.0/maven-plugin-api-3.6.0.jar
-/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-api/3.6.0/maven-plugin-api-3.6.0.pom
 
 %files license
 %defattr(0644,root,root,0755)
